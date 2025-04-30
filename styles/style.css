@@ -1,0 +1,451 @@
+html, body{
+    margin: 0px;
+}
+.header{
+    display: flex;
+    padding: 28px 240px 0px 240px;
+}
+.logo{
+    padding-right: 40px;
+    align-content: center;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.nav-button{
+    display: flex;
+    gap: 14px;
+}
+.menu-link{
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+    font-family: "Satoshi", Arial, sans-serif;
+}
+@font-face{
+    font-family: "Satoshi";
+    src: url("../fonts/Satoshi-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "integral CF";
+    src: url("../fonts/IntegralCF-Bold.ttf");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+.div{
+    font-family: "Satoshi";
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #000;
+    font-style: normal;
+    color: #fff;
+    width: auto;
+    height: 38px;
+}
+.div p{
+    margin: 0;
+    padding-top: 9px;
+    text-align: center;
+}
+.button-close{
+    width:14px;
+    height:14px;
+    border: none;
+    background:#000;
+}
+.search-form{
+    border-style: none;
+    width: 582px;
+    height: 48px;
+    background-color: #F0F0F0;
+    color:#F0F0F0;
+    display: flex;
+    border-radius: 62px;
+    
+}
+.search-input{
+    border: none;
+    background-color: #F0F0F0;
+    font-family: "Satoshi";
+    src: url("../fonts/Satoshi-Regular.ttf");
+    outline: none;
+}
+.search{
+    border: none;
+    color: #F0F0F0;
+    background-color:transparent;
+    outline: none;
+}
+.a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 62px;
+}
+a{
+    color: #fff;
+    text-decoration: underline;
+}
+.button-shop{
+    background-color:#000;
+    width: 210px;
+    height: 52px;
+    border-radius: 62px;
+    color: #fff;
+}
+.main{
+    padding: 0px 240px 0px 240px;
+}
+.welcome{
+    padding-top: 10px;
+}
+.inf-div{
+    padding: 113px 0px 0px 58px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 28px;
+}
+.inf-div h1{
+    font-family: "integral CF", Arial, Helvetica, sans-serif;
+    src: url("../fonts/IntegralCF-Bold.ttf");
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0;
+    width: 577px;
+    height: 173;
+}
+.inf-div h2{
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    src: url("../fonts/Satoshi-Regular.ttf");
+    width: 545px;
+    height: 55px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+}
+.info-count{
+    display: flex;
+    gap: 64px;
+}
+.info-count-text{
+    display: flex;
+    flex-direction: column;
+    width: 141px;
+    height: 74px;
+}
+.info-count-text h1{
+    margin: 0;
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: auto;
+    color: #000000;
+}
+.info-count-text p{
+    margin: 0;
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: auto;
+    color: #000000;
+}
+.black-box-section{
+    /* position: absolute; */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 240px 0px 240px;
+}
+.black-box{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 1240px;
+    height: 189px;
+    background-color: #000;
+    border-radius: 20px;
+}
+.black-box p{
+    margin: 0;
+    padding: 48px 0px 48px 64px;
+    font-family: "integral CF", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #fff;
+    width: 551px;
+    height: 94px;
+}
+.subscribe-form-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+    padding: 36px 0px 36px 205px;
+    width: 356px;
+    height: 117px;
+}
+.subscribe-form-box input{
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: auto;
+    border-radius: 62px;
+    width: 356px;
+    height: 57px;
+}
+.subscribe-form-box button{
+    padding: 12px 89px 12px 89px;
+    border-radius: 62px;
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: auto;
+}
+.footer-content{
+    position: absolute;
+    height: 500px;
+    width: 1920px;
+    background-color: #f0f0f0;
+}
+.footer-menu{
+    padding: 0px 240px 0px 240px;
+    width: 1240px;
+    height: 177px;
+}
+.footer-menu-container-1{
+    height: 177px;
+    width: 248px;
+}
+
+.footer-menu-container-1 h1{
+    margin: 0;
+    font-family: "integral CF", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 25px;
+    line-height: auto;
+}
+.footer-menu-container-1 p{
+    margin: 0;
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 35px;
+}
+.footer-menu-container-1-img{
+    display: flex;
+    gap: 14px;
+    width: 148px;
+    height: 28px;
+}
+.name-brands{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 106px;
+    padding: 44px 0px 45px 100px;
+}
+.brands{
+    width: 1440px;
+    height: 122px;
+}
+.center p{
+    color: #000;
+    font-family: "integral CF", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 72px 419px 55px 418px;
+    font-size: 48px;
+    line-height: auto;
+    width: 403px;
+    height: 58px;
+}
+.colection-clothes-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.button-view-1{
+    width: 166px;
+    height: 54px;
+    color: #000;
+    border-color: #F0F0F0;
+    background-color: #fff;
+    border-radius: 62px;
+    margin: 36px 563px 62px 511px;
+}
+.line{
+    width: 1240px;
+    color: #000000;
+    padding: 0;
+}
+.selling p{
+    color: #000;
+    font-family: "integral CF", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 64px 448px 55px 446px;
+    font-size: 48px;
+    line-height: auto;
+    width: 346px;
+    height: 58px;
+}
+.button-view-2{
+    width: 166px;
+    height: 54px;
+    color: #000;
+    border-color: #F0F0F0;
+    background-color: #fff;
+    border-radius: 62px;
+    margin: 36px 563px 62px 511px;
+}
+.colection-clothes-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.dress-style p{
+    font-family: "integral CF", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    width: 687px;
+    height: 58px;
+    padding: 70x 276px 64px 276px;
+    color: #000000;
+    margin: 70px 276px 64px 276px;
+}
+.dress-style-section{
+    background-color: #F0F0F0;
+    width: 1239px;
+    height: 866px;
+    border-radius: 40px;
+    margin: 80px 100px 80px 100px;
+}
+.dress-style-img{
+    gap: 20px;
+    padding: 64px 64px 0px 64px;
+    border-radius: 20px;
+}
+.casual{
+    color: #000000;
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    width: 114px;
+    height: 49px;
+    font-weight: 700;
+    font-size: 36px;
+    text-decoration: none;
+}
+.formal{
+    color: #000000;
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    width: 116px;
+    height: 49px;
+    font-weight: 700;
+    font-size: 36px;
+    text-decoration: none;
+}
+.party{
+    color: #000000;
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    width: 89px;
+    height: 49px;
+    font-weight: 700;
+    font-size: 36px;
+    text-decoration: none;
+}
+.gym{
+    color: #000000;
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    width: 80x;
+    height: 49px;
+    font-weight: 700;
+    font-size: 36px;
+    text-decoration: none;
+}
+.comment p{
+    font-family: "integral CF", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    width: 654px;
+    height: 58px;
+    color: #000000;
+    padding: 80px 686px 40px 100px;
+}
+.comment-box-1 h1{
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    src: url("../fonts/Satoshi-Regular.ttf");
+    font-weight: 700;
+    font-size: 20px;
+    width: 82px;
+    height: 15px;
+}
+.comment-box-1 h2{
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    src: url("../fonts/Satoshi-Regular.ttf");
+    font-weight: 400;
+    font-size: 16px;
+    width: 336px;
+    height: 88px;
+}
+.comment-box-2 h1{
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    src: url("../fonts/Satoshi-Regular.ttf");
+    font-weight: 700;
+    font-size: 20px;
+    width: 65px;
+    height: 15px;
+}
+.comment-box-2 h2{
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    src: url("../fonts/Satoshi-Regular.ttf");
+    font-weight: 400;
+    font-size: 16px;
+    width: 336px;
+    height: 110px;
+}
+.comment-box-3 h1{
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    src: url("../fonts/Satoshi-Regular.ttf");
+    font-weight: 700;
+    font-size: 20px;
+    width: 83px;
+    height: 15px;
+}
+.comment-box-3 h2{
+    font-family: "Satoshi", Arial, Helvetica, sans-serif;
+    src: url("../fonts/Satoshi-Regular.ttf");
+    font-weight: 400;
+    font-size: 16px;
+    width: 336px;
+    height: 110px;
+}
+.comment{
+    display: flex;
+}
+.line-footer{
+    width: 1240px;
+    color: #000000;
+    padding: 0;
+}
